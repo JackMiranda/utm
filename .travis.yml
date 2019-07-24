@@ -26,6 +26,7 @@ matrix:
       python: 3.3
       dist: trusty
       env: USE_NUMPY=0
+      install: pip install codecov-2.0.15 pytest-cov-2.5.1
     - name: "Python 2.7 on Xenial Xerus"
       python: 2.7
       dist: xenial
@@ -58,6 +59,7 @@ matrix:
       python: 3.3
       dist: trusty
       env: USE_NUMPY=1
+      install: pip install codecov-2.0.15 pytest-cov-2.5.1
     - name: "Python 2.7 on Xenial Xerus; with numpy"
       python: 2.7
       dist: xenial
